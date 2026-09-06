@@ -36,70 +36,6 @@ ship "Autumn Leaf" "Autumn Leaf (Missile)"
 		"Type 4 Radiant Steering"
 		"Hyperdrive"
 
-
-# Stinger Missile
-ship "Deep River" "Deep River Pirate 0"
-	sprite "ship/deep river 1"
-	add attributes
-		"mass" -496
-		"drag" -2.48
-		"cargo space" -912
-	outfits
-		"Modified Blaster Turret" 2
-		"Bright Cloud Shielding"
-		Hyperdrive
-		"Modified Blaster" 4
-		"Quad Mod Blaster Turret" 2
-		"Stinger Missile" 60
-		"Stinger Missile Launcher" 2
-		"Type 2 Radiant Thruster"
-		"Type 3 Radiant Steering"
-		"Wanderer Ramscoop"
-		"Cooling Ducts"
-		"Yellow Sun Reactor"
-	gun -56 -217 "Modified Blaster"
-	gun 56 -217 "Modified Blaster"
-	gun -40 -217 "Modified Blaster"
-	gun 40 -217 "Modified Blaster"
-	gun -18 -217 "Stinger Missile Launcher"
-	gun 18 -217 "Stinger Missile Launcher"
-	turret -36 -205 "Modified Blaster Turret"
-	turret 36 -205 "Quad Mod Blaster Turret"
-	turret -36 330 "Quad Mod Blaster Turret"
-	turret 36 330 "Modified Blaster Turret"
-
-# Inferno Rocket
-ship "Deep River" "Deep River Pirate 1"
-	sprite "ship/deep river 1"
-	add attributes
-		"mass" -496
-		"drag" -2.48
-		"cargo space" -912
-	outfits
-		"Modified Blaster Turret" 2
-		"Bright Cloud Shielding"
-		Hyperdrive
-		"Inferno Rocket" 40
-		"Inferno Rocket Launcher" 2
-		"Modified Blaster" 4
-		"Quad Mod Blaster Turret" 2
-		"Type 2 Radiant Thruster"
-		"Type 3 Radiant Steering"
-		"Wanderer Ramscoop"
-		"Cooling Ducts"
-		"Yellow Sun Reactor"
-	gun -56 -217 "Modified Blaster"
-	gun 56 -217 "Modified Blaster"
-	gun -40 -217 "Modified Blaster"
-	gun 40 -217 "Modified Blaster"
-	gun -18 -217 "Inferno Rocket Launcher"
-	gun 18 -217 "Inferno Rocket Launcher"
-	turret -36 -205 "Modified Blaster Turret"
-	turret 36 -205 "Quad Mod Blaster Turret"
-	turret -36 330 "Quad Mod Blaster Turret"
-	turret 36 330 "Modified Blaster Turret"
-
-
 ship "Deep River Carrier" "Deep River Carrier (Full)"
 	sprite "ship/deep river 0"
 	add attributes
@@ -135,7 +71,6 @@ ship "Deep River Carrier" "Deep River Carrier (Half)"
 	bay "Drone" 29 135 over
 	bay "Drone" 0 267 under
 	description "Even more of the cargo container mounts on this Deep River have been modified to carry drones."
-
 
 ship "Deep River Rapids" "Deep River Rapids (Turbo Blaster)"
 	outfits
@@ -201,6 +136,35 @@ ship "Deep River Rapids" "Deep River Pirate 2"
 		"Wanderer Ramscoop"
 		"Yellow Sun Reactor"
 
+# Inferno Rocket
+ship "Deep River Rapids" "Deep River Pirate 1"
+	outfits
+		"Bright Cloud Shielding"
+		Hyperdrive
+		"Inferno Rocket" 40
+		"Inferno Rocket Launcher" 2
+		"Twin Modified Blaster" 4
+		"Quad Mod Blaster Turret" 6
+		"Type 3 Radiant Thruster"
+		"Type 3 Radiant Steering"
+		"Wanderer Ramscoop"
+		"Cooling Ducts"
+		"Yellow Sun Reactor"
+
+# Stinger Missile
+ship "Deep River Rapids" "Deep River Pirate 0"
+	outfits
+		"Bright Cloud Shielding"
+		Hyperdrive
+		"Twin Modified Blaster" 4
+		"Quad Mod Blaster Turret" 6
+		"Stinger Missile" 60
+		"Stinger Missile Launcher" 2
+		"Type 3 Radiant Thruster"
+		"Type 3 Radiant Steering"
+		"Wanderer Ramscoop"
+		"Cooling Ducts"
+		"Yellow Sun Reactor"
 
 ship "Derecho" "Derecho (Advanced Cooling)"
 	outfits
